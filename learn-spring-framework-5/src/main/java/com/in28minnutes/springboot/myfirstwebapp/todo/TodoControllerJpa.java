@@ -45,8 +45,6 @@ public class TodoControllerJpa {
 		return "listTodos";
 	}
 
-
-
 	private String getLoggedInUsername(ModelMap model) {
 		Authentication authentication = 
 				SecurityContextHolder.getContext().getAuthentication(); //사용자 정보를 Security에서 받아올 것  

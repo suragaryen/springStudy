@@ -18,7 +18,7 @@ import jakarta.validation.Valid;
 //@Controller
 @SessionAttributes("name")
 //login에서 받은 Name이 @SessionAttributes 어노테이션을 받은 페이지에서 모두 유효하다! 
-//세션을 사용할 경우 추가로 메모리를 차지하고 모든 세부정보가 서버에 저장되기 때문에 사용시 주
+//세션을 사용할 경우 추가로 메모리를 차지하고 모든 세부정보가 서버에 저장되기 때문에 사용시 주의  
 public class TodoController {
 	
 	private TodoService todoService;

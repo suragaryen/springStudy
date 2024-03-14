@@ -14,7 +14,7 @@ public class SayHelloController {
 	//say-hello
 	// http://localhost:8080/say-hello
 	@RequestMapping("say-hello")
-	@ResponseBody //이 메시지가 리턴한 것 그대로 브라우저에 리
+	@ResponseBody //이 메시지가 리턴한 것 그대로 브라우저에 리턴  
 	public String sayHello() {
 		return "Hello! what are you learning today?";
 	}
@@ -22,7 +22,7 @@ public class SayHelloController {
 	//say-hello
 	// http://localhost:8080/say-hello
 	@RequestMapping("say-hello-html")
-	@ResponseBody //이 메시지가 리턴한 것 그대로 브라우저에 리
+	@ResponseBody //이 메시지가 리턴한 것 그대로 브라우저에 리턴
 	public String sayHelloHtml() {
 		StringBuffer sb = new StringBuffer();
 		sb.append("<html>");

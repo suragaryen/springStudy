@@ -7,7 +7,7 @@ public class AuthenticationService {
 	
 	public boolean authenticatte(String username, String password) {
 		
-		//equalsIgnoreCase = 대소문자를 무시하고 비
+		//equalsIgnoreCase = 대소문자를 무시하고 비교
 		boolean isValidUserName = username.equalsIgnoreCase("a");
 		boolean isValidUserPassword = password.equalsIgnoreCase("123");
 		
